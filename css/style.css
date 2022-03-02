@@ -1,8 +1,8 @@
 :root{
     --persian-red: #ce3232;
-    --dark: #363636;
-    --grey: #bfbdbd;
-    --lightGrey: #f9f9f9;
+    --dark: #0a0101fd;
+    --grey: #686464d0;
+    --lightGrey: #f9f9f9ea;
     --transition: all 0.5s ease;
     --Poppins: 'Poppins', sans-serif;
     --Mont: 'Montserrat', sans-serif;
@@ -11,7 +11,7 @@
 *{
     box-sizing: border-box;
 }
-body{background:burlywood;
+body{background:rgba(228, 192, 146, 0.568);
     font-family: var(--Mont);
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 100%;
     padding-left: 5vw;
     padding-right: 5vw;
-    background: #fff;
+    background: rgba(94, 59, 59, 0.986);
 }
 .navbar-nav{
     padding-left: 0;
@@ -103,7 +103,8 @@ h1, h2, h3, h4, h5, h6, p{
 .navbar-collapse{
     margin: 0 auto;
     padding-bottom: 1.6rem;
-    display: none;
+    display: none; 
+    
 }
 .nav-item{
     padding: 0.66rem 0;
@@ -479,6 +480,7 @@ h1, h2, h3, h4, h5, h6, p{
     }
     .nav-brand-toggler{
         flex: 0 0 150px;
+       
     }
     .btn-top{
         width: auto;
@@ -494,19 +496,19 @@ h1, h2, h3, h4, h5, h6, p{
     /*** navbar background change ***/
     .bg-navbar{
         width: 100%;
-        background: #fff;
+        background: #594736;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        -webkit-box-shadow: 0px 0px 25px 0px rgba(214, 214, 214, 0.75);
-        -moz-box-shadow: 0px 0px 25px 0px rgba(214, 214, 214, 0.75);
-        box-shadow: 0px 0px 25px 0px rgba(214, 214, 214, 0.75);
+        -webkit-box-shadow: 0px 0px 25px 0px rgba(172, 166, 166, 0.75);
+        -moz-box-shadow: 0px 0px 25px 0px rgba(175, 166, 166, 0.75);
+        box-shadow: 0px 0px 25px 0px rgba(163, 156, 156, 0.75);
     }
     .bg-navbar .navbar-brand{
-        color: var(--dark)!important;
+         color: var(--dark)!important; 
     }
     .bg-navbar .nav-link, .bg-navbar .call-info{
-        opacity: 0.8;
-        color: var(--dark)!important;
+        opacity: 0.8; 
+       color: var(--dark)!important; 
     }
     .bg-navbar .nav-link:hover, .bg-navbar .call-info:hover{
         color: var(--persian-red)!important;
@@ -522,7 +524,7 @@ h1, h2, h3, h4, h5, h6, p{
 
     .chef-wrapper{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 1.5rem;
     }
     .testimonial-item p{
